@@ -1,0 +1,25 @@
+.main {
+    list-style-type: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    background-color: var(--orange);
+    text-align: center;
+    width: 2rem;
+  height: 2rem;
+}
+.main:hover{
+    cursor: pointer;
+    box-shadow: 0 0.1rem .1rem rgba(0, 0, 0, 0.4);
+    
+    
+}
+.main span {
+    color: var(--header-blue);
+    font-size: 1.3rem;
+    
+}
+.main:active {
+    transform: translate(1px, 1px);
+   
+    box-shadow: none;
+}

@@ -1,0 +1,23 @@
+.main {
+    /* back to top button */
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    color: var(--orange);
+    font-size: 2rem;
+    padding: .5rem;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+}
+
+.main:hover {
+    cursor: pointer;
+   
+}
+
+.main:active {
+    transform: translate(1px, 1px);
+   
+    box-shadow: none;
+}
+

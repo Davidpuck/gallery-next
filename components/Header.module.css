@@ -1,0 +1,16 @@
+.main {
+    width: 100vw;
+ 
+    background-color:var(--header-blue);
+    color: white;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.main nav ul {
+    display: flex;
+    
+}

@@ -1,0 +1,11 @@
+.main {
+    display: grid;
+    justify-content: center;
+    
+}
+
+
+
+.main img:hover {
+    cursor: pointer;
+}

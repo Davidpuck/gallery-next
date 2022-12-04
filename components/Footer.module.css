@@ -1,0 +1,17 @@
+.main {
+    background-color:var(--header-blue);
+    color: white;
+    display: grid;
+   place-items: center;
+    
+    padding: 4rem;
+   
+}
+.main div {
+    align-items: left;
+}
+
+.main p {
+    margin: 0;
+    padding: .3rem;
+}

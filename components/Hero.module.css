@@ -1,0 +1,16 @@
+.main {
+    max-width: fit-content;
+    margin: 20px auto;
+    
+    
+}
+
+.main img {
+    max-height: 70vh;
+ 
+}
+
+.main img:hover {
+    
+    cursor: pointer;
+}

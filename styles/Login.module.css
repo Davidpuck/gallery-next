@@ -1,0 +1,25 @@
+/*  login modal */
+.main{
+    background-color: #fff;
+    color: var(--orange);
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.main button {
+    background-color: var(--orange);
+    color: white;
+}
+
+.main button:hover {
+    background-color: var(--yellow);
+    color: var(--orange);
+}

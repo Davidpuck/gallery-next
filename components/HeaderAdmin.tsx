@@ -15,7 +15,7 @@ const  HeaderAdmin = ({galleriesList, setGalleriesList, user}:{galleriesList:any
     
     return (
         <header className={styles.main}>
-            <h1>Coming Soon</h1>
+            <h1>David&apos;s Admin Page</h1>
             <nav>
                 <ul>
                     <NavItem name='about' />

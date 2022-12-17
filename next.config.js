@@ -8,4 +8,9 @@ module.exports = {
     locales: ['en'],
     defaultLocale: 'en',
   },
+  env: {
+    TITLE: process.env.TITLE,
+    EMAIL: process.env.EMAIL,
+    PHONE_NUMBER: process.env.PHONE_NUMBER,
+  },
 }

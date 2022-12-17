@@ -5,7 +5,7 @@ const Header = ({ galleriesList}:{ galleriesList: any}) => {
     const galleryNames = galleriesList.map( (gallery:any ) =>gallery.name)
     return (
         <header className={styles.main}>
-            <h1>Coming Soon</h1>
+            <h1>{process.env.TITLE}</h1>
             <nav>
                 <ul>
                     <NavItem name='about' />

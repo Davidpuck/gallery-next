@@ -2,17 +2,17 @@ import styles from './Footer.module.css'
 const Footer = () => {
     return (
         <footer className={styles.main} id='contact'>
-           <div>
+            <div>
                 <a
-                    href="mailto:artymcartface@gmail.com?Subject=Hi%20Arty"
+                    href={`mailto:${process.env.EMAIL}`}
                     target="_top"
                 >
-                    <p>📧 coming soon</p>
+                    <p>{`📧 ${process.env.EMAIL}`}</p>
                 </a>
-                <a href="tel:5555555555">
-                    <p>☎ coming soon</p>
+                <a href={`tel: ${process.env.PHONE_NUMBER}`}>
+                    <p>{`☎  ${process.env.PHONE_NUMBER}`}</p>
                 </a>
-           </div>
+            </div>
         </footer>
     );
 };

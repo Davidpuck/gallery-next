@@ -24,7 +24,7 @@ const Index: NextPage = ({ heroData, imageData, galleryData, aboutData }: InferG
     return (
         <div className={styles.main}>
             <Head>
-                <title>Gallery </title>
+                <title>{process.env.TITLE}</title>
                 <meta name="description" content="A simple gallery" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

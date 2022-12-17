@@ -75,7 +75,7 @@ const About = ({ about }: any) => {
   return (
     <div className={styles.main} id='about'>
       <QuillNoSSRWrapper modules={modules} formats={formats} value={value} onChange={setValue} theme="snow" />
-      <button onClick={handleSave}>Save</button>
+      <button onClick={handleSave}>Save About Text</button>
 
     </div>
   )

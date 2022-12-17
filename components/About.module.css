@@ -5,3 +5,12 @@
     background-color: var(--main-blue);
     color: var(--yellow);
 }
+.main button {
+    background-color: var(--orange);
+    /* rounded corners */
+    border-radius: 10px;
+    width: fit-content;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}

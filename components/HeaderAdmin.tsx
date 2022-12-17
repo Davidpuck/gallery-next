@@ -8,14 +8,19 @@ import NewGallery from './NewGallery'
 
 const  HeaderAdmin = ({galleriesList, setGalleriesList, user}:{galleriesList:any, setGalleriesList: any, user: User}) => {
 
-   
-    //get property name of galleryList array
+   const handleRebuild = async () => {
+
+        const res = await fetch('/api/rebuild')
+        const data = await res.json()
+        console.log(data)
+    }
     const galleryNames = galleriesList.map( (gallery:any ) =>gallery.name)
     
     
     return (
         <header className={styles.main}>
             <h1>David&apos;s Admin Page</h1>
+            <button onClick={handleRebuild}>Update Now!</button>
             <nav>
                 <ul>
                     <NavItem name='about' />

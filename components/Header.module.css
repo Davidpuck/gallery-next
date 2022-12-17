@@ -19,6 +19,11 @@
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
     cursor: pointer;
  }
+ .main button:active {
+    transform: translate(1px, 1px);
+   
+    box-shadow: none;
+ }
 .main nav ul {
     display: flex;
     

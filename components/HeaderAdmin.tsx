@@ -19,7 +19,7 @@ const  HeaderAdmin = ({galleriesList, setGalleriesList, user}:{galleriesList:any
     
     return (
         <header className={styles.main}>
-            <h1>David&apos;s Admin Page</h1>
+            <h1>Admin Page</h1>
             <button onClick={handleRebuild}>Update Now!</button>
             <nav>
                 <ul>

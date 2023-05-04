@@ -44,7 +44,7 @@ const ImageEdit = ({ image, setShowEdit, setImages, setGalleriesList, gallery }:
             }
         }
         try {
-            const fetchResponse = await fetch(`http://${window.location.host}/api/imageUp`, settings);
+            const fetchResponse = await fetch(`/api/imageUp`, settings);
             const responseData = await fetchResponse.json()
             setIsLoading(false)
             
